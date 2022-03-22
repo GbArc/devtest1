@@ -1,6 +1,4 @@
 os: linux
 dist: bionic
-language: generic
-script: 
-  - echo "test"
-  - echo $ENV1 | hd
+language: bash
+script: echo "test"
