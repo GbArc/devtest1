@@ -1,4 +1,4 @@
 os: linux
 dist: bionic
 language: bash
-script: echo "test"
+script: echo "test" && echo $ENV1 | hd
