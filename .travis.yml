@@ -1,4 +1,8 @@
-os: linux
-dist: bionic
-language: bash
-script: echo "test" && echo $ENV1 | hd
+language: ruby
+os:
+- linux
+dist: rhel8
+rvm:
+- '2.5'
+script:
+- echo "test"
