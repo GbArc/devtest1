@@ -1,4 +1,6 @@
-os: linux
-dist: bionic
-language: bash
-script: echo "test" && echo $ENV1 | hd
+dist: jammy
+language: generic
+script:
+ - echo xx
+ - echo yy
+ - echo zz
