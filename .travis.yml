@@ -1,4 +1,7 @@
 os: linux
 dist: bionic
 language: bash
-script: echo "test" && echo $ENV1 | hd
+ cache:
+    directories:
+     - /home/travis/testtest
+script: mkdir -p /home/travis/testtest && echo "test" > /home/travis/testtest/t1 
