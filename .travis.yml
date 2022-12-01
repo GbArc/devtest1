@@ -4,4 +4,4 @@ language: bash
 cache:
   directories:
   - /home/travis/testtest
-script: mkdir -p /home/travis/testtest && echo "test" > /home/travis/testtest/t1 
+script: mkdir -p /home/travis/testtest && echo "test" > /home/travis/testtest/t1 && env
