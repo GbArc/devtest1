@@ -1,4 +1,3 @@
-os: linux
-dist: bionic
+os: windows
 language: bash
-script: echo "test" && echo $ENV1 | hd
+script: docker run -it ruby:3.0.0 env
