@@ -1,3 +1,7 @@
 os: windows
 language: bash
-script: docker run -it ruby:3.0.0 env
+services: docker
+script: 
+- docker version
+- docker images
+- docker run -it ruby:3.0.0 env
