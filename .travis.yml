@@ -4,6 +4,6 @@ services: docker
 script: 
 - docker version
 - docker images
-- docker run -it mcr.microsoft.com/windows/nanoserver env
-- docker pull ruby:3.0.0
-- docker run -it ruby:3.0.0 env
+- winpty docker run -it mcr.microsoft.com/windows/nanoserver env
+- winpty docker pull ruby:3.0.0
+- winpty docker run -it ruby:3.0.0 env
