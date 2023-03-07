@@ -5,4 +5,5 @@ script:
 - docker version
 - docker images
 - docker run -it mcr.microsoft.com/windows/nanoserver env
+- docker pull ruby:3.0.0
 - docker run -it ruby:3.0.0 env
