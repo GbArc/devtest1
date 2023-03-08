@@ -2,3 +2,4 @@ os: linux
 language: bash
 script: 
 - time curl -vLO https://mirrors.dotsrc.org/blender/release/Blender3.4/blender-3.4.1-linux-x64.tar.xz
+- ls -la
